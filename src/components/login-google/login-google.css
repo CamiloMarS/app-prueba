@@ -30,10 +30,11 @@
   width: 100%;
 }
 .title-login {
+  color: #fff;
   letter-spacing: 3px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bolder;
-  text-shadow: 0px 1px 2px #000;
+  text-shadow: 0px 0px 5px #000;
 }
 
 .btn-login-google {
@@ -47,4 +48,10 @@
   font-size: 14px;
   color: #fff;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 400px) {
+  .ui-content-button-login {
+    width: 90%;
+  }
 }
