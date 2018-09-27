@@ -1,0 +1,13 @@
+.button-circle {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #001226;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.button-circle:active {
+  box-shadow: 0px 0px 3px #001226c7;
+}

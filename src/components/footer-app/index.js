@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import "./footer-app.css";
 
 class FooterApp extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   //Method render
   render() {
     return (

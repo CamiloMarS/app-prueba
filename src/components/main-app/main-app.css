@@ -1,0 +1,36 @@
+.container-app {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.content-body {
+  width: 100%;
+  min-height: 90.5vh;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.content-body-left {
+  background: rgba(219, 212, 213, 0.781);
+  width: 20%;
+  padding: 5px;
+  min-width: 250px;
+}
+
+.content-body-right {
+  background: rgb(154, 198, 235);
+  width: 80%;
+}
+
+@media only screen and (max-width: 500px) {
+  .content-body {
+    display: inline;
+  }
+  .content-body-left,
+  .content-body-right {
+    width: 100%;
+  }
+}

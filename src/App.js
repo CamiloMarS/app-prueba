@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 
 /**================ Mis Componentes =================**/
-import HeaderApp from "./components/header-app";
-//import FooterApp from "./components/footer-app";
 import LoginGoogle from "./components/login-google";
+import MainApp from "./components/main-app";
 
 class App extends Component {
   constructor(props) {
@@ -42,7 +41,7 @@ class App extends Component {
       <div className="App">
         <div className="content-main">
           {user.userLogged ? (
-            <HeaderApp profileObj={this.state.user.dataSession.profileObj} />
+            <MainApp data={this.state.user} />
           ) : (
             <LoginGoogle loginStatus={this.listenerSessionStatus} />
           )}

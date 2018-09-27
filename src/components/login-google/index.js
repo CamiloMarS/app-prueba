@@ -4,10 +4,6 @@ import GoogleLogin from "react-google-login";
 import logo_sngular from "../../images/logo-sngular.png";
 
 class LoginGoogle extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   loginWithGoogle = e => {
     this.props.loginStatus({
       logueado: true,

@@ -3,10 +3,6 @@ import "./header-app.css";
 import logo_sngular from "../../images/logo-sngular.png";
 
 class HeaderApp extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     let datosProfile = this.props.profileObj;
 
